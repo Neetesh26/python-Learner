@@ -5,3 +5,5 @@ for i in range(1 , n+1):
     product = product * i
 
 print(f" Factorial is : {product}")
+
+print("your program is executed.")
