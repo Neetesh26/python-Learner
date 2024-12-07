@@ -28,7 +28,7 @@ print("end program all element printed")
 '''
 
 # search element
-
+"""
 userNum = int(input("enter your to search in list : "))
 
 while i < len(nums):
@@ -42,3 +42,25 @@ else:
     print("number is not in a list ", userNum)
 
 print("end loop")
+
+"""
+
+# question ---->
+'''
+Num = int(input("enter a number "))
+
+sum=0
+
+while i <= Num:
+    sum += i
+    i+=1
+print(sum)
+'''
+
+
+# question --->
+Num = int(input("enter a number to find factorial "))
+fact =1
+for i in range(1, Num+1):
+    fact *=i
+print(fact)
