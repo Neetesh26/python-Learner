@@ -29,7 +29,7 @@ print("end program all element printed")
 
 # search element
 
-userNum = int(input("enter your to search in list"))
+userNum = int(input("enter your to search in list : "))
 
 while i < len(nums):
     if(nums[i] == userNum):
@@ -38,4 +38,7 @@ while i < len(nums):
     else:
         print("finding...")
     i+=1
+else:
+    print("number is not in a list ", userNum)
+
 print("end loop")
