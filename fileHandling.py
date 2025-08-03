@@ -1,0 +1,6 @@
+r = open("supreme.txt",'w')  #reate file.....
+r.write("hello bhaiyoo mene file create create ke saath write bhi kr diii....")
+r.close()
+
+r = open("supreme.txt",'a') #append file also create file....
+r.write("byeee bhaiyoo isne mereko append kiya")
