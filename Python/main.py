@@ -220,7 +220,7 @@
 #lets print a table of 5
 # n = int(input("Which table you want ? "))
 
-# for i in range(n,(n*10)+1,n):
+# for i in range(n,(n*10)+1,n):     #number,num*10+1,num
 #     print(i)
 
 # a = "SHERYIANS TEACHES INDUSTRY THINGS"
@@ -833,6 +833,9 @@
 # obj2.show()
 
 
+
+
+# ---------------------> encapsulation
 # class Factory:
 #     __a = "pune"
 
@@ -845,10 +848,14 @@
 # obj.show()
 
 
+
+
+
+# ---------------------------------> abstract classs
 # from abc import ABC, abstractmethod
 
 # class abstract(ABC):
-#     @abstractmethod
+#     @abstractmethod   <------------------------------------------------------------#decoratorss
 #     def perimeter(self):
 #         pass 
     
@@ -881,6 +888,11 @@
 # obj = Circle(7)
 # obj2 = Square(12)
 
+
+
+
+
+#denders methods......................-----------------------------------> 
 
 # class Animal:
 #     def __init__(self,name,age):
@@ -940,18 +952,29 @@
 
 # information(name = "Akarsh", age = 23, designation = "AI/ML")
 
+
+# com-prenhsion------------------------------------>
 # l = {i : i**2 for i in range(1,10)}
 
+# l = {i :i**2 for i in range( 1 , 21)}
+
 # print(l)
+
+
+
+
 
 # a = [1,2,3,4,5]
 
 # def double(x):
 #     return x *2
 
-# result = map(double,a)
+# result = map(double,a)   #map() must have at least two arguments
 
 # print(list(result))
+
+
+
 
 # from modelss.model import hello,maths
 
